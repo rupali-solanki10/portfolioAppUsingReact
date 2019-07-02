@@ -3,6 +3,7 @@ import project2 from '../assets/AngularJs.png';
 import project3 from '../assets/project3.png';
 
 
+
 const PROJECTS = [{
     id:1,
     title:'Tic Ttac Toe ',
@@ -17,9 +18,9 @@ const PROJECTS = [{
         image: project2
     },{
         id:3,
-        title:'My Project3',
-        description: 'My APIs',
-        link: 'https://github.com/rupali-solanki10/home-assistant',
+        title:'My Porfolio',
+        description: 'Portfolio application to demonstrate react js skills',
+        link: 'https://github.com/rupali-solanki10/portfolioAppUsingReact',
         image: project3
     }
 ];
