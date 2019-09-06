@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
 import Socials from './Socials';
-import profilePic from './assets/rupali_profile_pic.JPG';
+import profilePic from '../assets/rupali_profile_pic.JPG';
 import Title from './Titles';
+import Jokes from './Jokes';
 
 class App extends Component {
     constructor(){
@@ -38,7 +39,10 @@ class App extends Component {
           }
           <hr/>
           <Projects />
+          <hr/>
           <Socials/>
+          <hr/>
+          <Jokes />
           </div>
           
       )
