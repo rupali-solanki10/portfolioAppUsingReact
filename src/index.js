@@ -1,7 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Router, Switch, Route} from 'react-router-dom';
 import App from './component/App';
+import Jokes from './component/Jokes';
+import {createBrowserHistory} from 'history';
 import './index.css'
 
-ReactDOM.render(<App/>, document.getElementById('root')
+ReactDOM.render(
+    <Router history={createBrowserHistory()}>
+        <Switch>
+            <Route exact path="/" component={App}/>
+            <Route path = "/jokes" component={Jokes}/>
+        </Switch>
+    </Router>
+    , document.getElementById('root')
 );

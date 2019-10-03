@@ -3,7 +3,7 @@ import Projects from './Projects';
 import Socials from './Socials';
 import profilePic from '../assets/rupali_profile_pic.JPG';
 import Title from './Titles';
-import Jokes from './Jokes';
+import Header from './Header';
 
 class App extends Component {
     constructor(){
@@ -22,6 +22,7 @@ class App extends Component {
     render() {
       return(
           <div>
+          <Header/>
           <div>
               <img src={profilePic} alt='profile pic' className='profile'/>
               <h1>Hello!</h1>
@@ -41,8 +42,6 @@ class App extends Component {
           <Projects />
           <hr/>
           <Socials/>
-          <hr/>
-          <Jokes />
           </div>
           
       )
